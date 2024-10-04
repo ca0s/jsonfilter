@@ -14,10 +14,10 @@ type MyData struct {
 }
 
 obj := MyData {
-    what: 5,
-    data: Internal{
+    internal: Internal{
         data: "nope"
-    }
+    },
+    what: 5
 }
 ```
 
